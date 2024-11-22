@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Graphik lc web';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('../graphiklcweb_medium.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--body-bg-color);
+}
+body * {
+  font-family: 'Graphik lc web';
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,68 @@
+:root {
+  /* Основные цвета */
+  --body-bg-color: #f5f5f5;
+  --white: #ffffff;
+  --black: #000;
+  --dark-purple: #110936;
+  --primary-pink: #f82179;
+
+  /* Шапка топ */
+  --header-top-bg-color: var(--dark-purple);
+  --header-top-text-color: var(--white);
+  --header-top-input-bg-color: rgba(86, 74, 140, 50%);
+
+  /* Шапка боттом */
+  --header-bottom-bg-color: var(--white);
+  --header-bottom-text-color: var(--dark-purple);
+
+  /* Дропдаун меню */
+  --dropdown-tab-bg: var(--white);
+  --dropdown-tab-color: var(--black);
+  --dropdown-tab-icon-color: #777777;
+  --dropdown-tab-active-icon-color: #ed1e79;
+  --dropdown-content-bg: var(--body-bg-color);
+  --dropdown-category-title: var(--black);
+  --dropdown-category-link: var(--primary-pink);
+  --dropdown-category-link-state: #6f5e91;
+
+  /* Мобильное меню */
+  --mobile-menu-item: var(--dark-purple);
+
+  /* Баннер */
+  --banner-bg-color: var(--dark-purple);
+
+  /* Кнопка */
+  --button-pink: var(--primary-pink);
+  --button-white: var(--white);
+  --button-active-pink: #d81464;
+  --button-disabled-bg: #9d0040;
+}
+
+.dark-theme {
+  /* Основные цвета */
+  --body-bg-color: #100935;
+
+  /* Шапка топ */
+  --header-top-bg-color: #1c0f59;
+  --header-top-text-color: var(--white);
+  --header-top-input-bg-color: #564a8c;
+
+  /* Шапка боттом */
+  --header-bottom-bg-color: #150c46;
+  --header-bottom-text-color: var(--white);
+
+  /* Дропдаун меню */
+  --dropdown-tab-bg: #1a0e52;
+  --dropdown-tab-color: var(--white);
+  --dropdown-tab-active-bg: #150c46;
+  --dropdown-tab-icon-color: var(--white);
+  --dropdown-tab-active-icon-color: #ed1e79;
+  --dropdown-content-bg: #150c46;
+  --dropdown-category-title: var(--white);
+
+  /* Мобильное меню */
+  --mobile-menu-item: var(--white);
+
+  /* Баннер */
+  --banner-bg-color: #150c46;
+}
